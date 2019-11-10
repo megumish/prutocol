@@ -11,6 +11,7 @@ rustup component add rls rust-analysis rust-src
 # ---- end setup rust ----
 # ---- start build project ----
 
+cd $HOME/workspace
 cargo build
 cargo test
 
